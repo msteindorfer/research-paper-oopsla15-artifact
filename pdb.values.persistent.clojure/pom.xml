@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.eclipse.imp</groupId>
+	<artifactId>org.eclipse.imp.pdb.values.persistent.clojure</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <maven.compiler.target>1.8</maven.compiler.target>
+    	<maven.compiler.source>1.8</maven.compiler.source>
+    	
+		<!-- Skip compilation of legacy test dependency -->
+		<maven.test.skip>true</maven.test.skip>    	
+	</properties>
+
+	<build>
+		<plugins>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.apache.maven.plugins</groupId> -->
+<!-- 				<artifactId>maven-jar-plugin</artifactId> -->
+<!-- 				<version>2.4</version> -->
+<!-- 				<configuration> -->
+<!-- 					<archive> -->
+<!-- 						<manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile> -->
+<!-- 					</archive> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.imp</groupId>
+			<artifactId>org.eclipse.imp.pdb.values</artifactId>
+			<version>0.4.1.qualifier</version>
+		</dependency>
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>clojure</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.krukow</groupId>
+			<artifactId>clj-ds</artifactId>
+			<version>0.0.4</version>
+		</dependency>
+<!--         <dependency> -->
+<!--             <groupId>org.eclipse.imp</groupId> -->
+<!--             <artifactId>org.eclipse.imp.pdb.values.test</artifactId> -->
+<!--             <version>0.4.1.qualifier</version> -->
+<!--             <scope>test</scope> -->
+<!--         </dependency> -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>

@@ -1,0 +1,13 @@
+target/
+
+results.tmp.log
+results.tmp.txt
+
+.cache
+.cache-main
+
+data/wordpress-cfgs-as-graphs.bin
+data/wordpress-cfgs-as-graphs-sampled.bin
+
+map-sizes-and-statistics.csv
+

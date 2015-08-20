@@ -1,0 +1,8 @@
+bin/
+target/
+
+.idea/
+
+# Eclipse / JDT / Scala IDE
+.worksheet/
+.cache

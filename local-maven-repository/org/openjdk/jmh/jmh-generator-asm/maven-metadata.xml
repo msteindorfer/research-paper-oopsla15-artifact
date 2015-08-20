@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.openjdk.jmh</groupId>
+  <artifactId>jmh-generator-asm</artifactId>
+  <versioning>
+    <versions>
+      <version>1.11-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150820121053</lastUpdated>
+  </versioning>
+</metadata>

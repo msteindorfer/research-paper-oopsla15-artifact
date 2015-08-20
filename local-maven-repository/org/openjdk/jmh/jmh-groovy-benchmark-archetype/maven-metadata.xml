@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.openjdk.jmh</groupId>
+  <artifactId>jmh-groovy-benchmark-archetype</artifactId>
+  <versioning>
+    <versions>
+      <version>1.11-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150820121120</lastUpdated>
+  </versioning>
+</metadata>
