@@ -9,7 +9,7 @@ clean:
 
 unpack_data:
 	# unpack data for real-world evaluation
-	(cd ../oopsla15-benchmarks/data && gunzip --keep --force wordpress-cfgs-as-graphs.bin.gz)
+	(cd ../oopsla15-benchmarks/data && gunzip --to-stdout wordpress-cfgs-as-graphs.bin.gz > wordpress-cfgs-as-graphs.bin)
 
 prepare: javaversion
 	# build all oopsla15-artifacts
